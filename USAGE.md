@@ -41,7 +41,7 @@ comments:
 ```
 # Sites to crawl
 https://example.com
-https://affordabledoorsandmore.com
+https://news.ycombinator.com
 ```
 
 The node crawls all listed URLs once per hour by default.
