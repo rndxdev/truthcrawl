@@ -58,7 +58,7 @@ The node crawls all listed URLs once per hour by default.
 ### Build from source
 
 ```sh
-git clone https://github.com/rydickin/truthcrawl.git
+git clone https://github.com/rndxdev/truthcrawl.git
 cd truthcrawl
 mvn package -pl truthcrawl-core,truthcrawl-cli -DskipTests
 ```
