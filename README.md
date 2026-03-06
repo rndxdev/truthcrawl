@@ -7,13 +7,14 @@ truthcrawl is an early-stage, open source tamper-evident transparency log for we
 - A standard observation schema for crawlers/verifiers
 - A transparency log format (append-only) for publishing crawl receipts
 - Reference implementations for:
-  - crawler nodes (produce signed observations)
+  - observer nodes (fetch individual URLs and produce signed observations)
   - log publisher (build Merkle roots)
   - proof verifier (verify inclusion proofs)
 - Analytics primitives for detecting manipulation patterns (optional layer)
 
 ## What this project is not
 
+- A full web crawler (it fetches specific URLs you provide, it does not spider sites)
 - A search engine or ranking system
 - A store of full page content on-chain
 

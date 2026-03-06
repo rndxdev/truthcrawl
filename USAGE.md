@@ -44,7 +44,10 @@ https://example.com
 https://news.ycombinator.com
 ```
 
-The node crawls all listed URLs once per hour by default.
+The node fetches each listed URL once per hour by default and records what it
+sees. This is a single-page fetcher, not a full web crawler -- it does not
+spider sites, discover new pages, or follow links. It also does not currently
+check robots.txt or enforce rate limits, so use responsibly.
 
 ---
 
