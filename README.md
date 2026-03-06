@@ -1,9 +1,6 @@
 # truthcrawl
 
-truthcrawl is a verifiable, tamper-evident log of web crawl observations designed to audit SEO claims.
-
-It does not aim to replace search engines.
-It aims to make crawl-based claims falsifiable: who observed what, when, and with what confidence.
+truthcrawl is an early-stage, open source tamper-evident transparency log for web crawl observations. Built with cryptographic signing, Merkle trees, and append-only logs to verify what was on a page and when.
 
 ## What this project is
 
@@ -17,8 +14,7 @@ It aims to make crawl-based claims falsifiable: who observed what, when, and wit
 
 ## What this project is not
 
-- A promise to improve rankings
-- A replacement for Google
+- A search engine or ranking system
 - A store of full page content on-chain
 
 ## Roadmap

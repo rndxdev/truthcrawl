@@ -44,7 +44,6 @@ Integration tests prove the system works as a whole.
 
 ## Explicit Non-Goals
 
-- ranking systems
 - crawling logic
 - indexing
 - dashboards
